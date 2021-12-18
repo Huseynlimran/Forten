@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    transition: 0.2s;
+    color: white;
+}
+body {
+    background: #000000;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #000000;
+    height: 6vh;
+}
+nav {
+    background: #0F0F0F;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #969696;
+}
+a:hover{
+    color: white;
+}
+.home .container-fluid{
+    background: url(img/Rectangle\ 3\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.home .logo{
+    border: 3px solid white;
+    width: 50%;
+}
+.home img {
+    border-bottom: 1px solid white;
+    padding: 50px 0px;
+    padding-bottom: 8px;
+}
+@media (max-width:768px) {
+    .home .logo {
+        width: 90%;
+    }
+    .home .soz {
+        width: 100%;
+    }
+    
+}
+.home h5 {
+    padding-bottom: 30px;
+}
+.season .hr3{
+    color: white;
+    width: 10%;
+    height: 2px;
+}
+.season img {
+    background: #191B1C;
+    padding: 30px 10px;
+}
+.season .col-xl-5{
+    background: url(img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.season button {
+    background:linear-gradient(to right, transparent 50%, white 50%);
+    background-size: 200%;
+    background-position: left;
+    padding: 0.4em 2em;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.4s ease;
+}
+.season button:hover{
+    background-position: right;
+    color: black;
+}
+.collection button {
+    background:linear-gradient(to right, transparent 50%, white 50%);
+    background-size: 200%;
+    background-position: left;
+    padding: 0.4em 2em;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.4s ease;
+}
+.collection button:hover{
+    background-position: right;
+    color: black;
+}
+.product img{
+    background: #191B1C;
+    padding: 30px 10px;
+}
+.cont {
+    background: #0F0F0F;
+}
+footer {
+    background: url(img/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer button {
+    background: #0F0F0F;
+    padding: 0.8em 1em;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 1em 0.6em;
+}
+footer input {
+    background-color: rgba(255, 255, 255, 0.247);
+    backdrop-filter: blur (20px );
+    outline: none;
+    border: none;
+    padding: 0.4em 1em;
+    margin: 0px;
+}
+footer input::placeholder{
+    color: white;
+}
+footer .btnn{
+    margin: 0px;
+    padding: 0.5em 1em;
+    background:linear-gradient(to right, black 50%, white 50%);
+    background-size: 200%;
+    background-position: left;
+}
+footer .btnn:hover,:focus{
+    background-position: right;
+    color: black;
+}
