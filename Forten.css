@@ -8,11 +8,13 @@
     transition: 0.2s;
     color: white;
 }
+body ,html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 body {
     background: #000000;
-    overflow-x: hidden;
     scroll-behavior: smooth;
-
 }
 p {
     margin: 0;
